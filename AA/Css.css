@@ -1,0 +1,50 @@
+body {
+    background-color: antiquewhite;
+}
+
+area:hover{
+    border: 10px solid;  
+}
+
+
+#index_display{
+    display: flex;
+    gap: 40px;
+}
+
+#midden {
+    display: flex;
+    font-size: 30px;
+    justify-content: center;
+    gap: 250px;
+}
+
+.tekst{
+    display: block;
+}
+
+.tekst h2 {
+    margin: 0;
+    font-size: 23px;
+}
+
+.tekst p {
+    margin-top: 0;
+    margin-bottom: 17px;
+    font-size: 25px;
+}
+
+.tekst img {
+    display: inline-block;
+}
+
+.tekst a {
+    text-decoration: none;
+    color: black;
+    font-size: 27px;
+}
+
+.tekst a:hover {
+    background-color: bisque;
+    color: burlywood;
+}
